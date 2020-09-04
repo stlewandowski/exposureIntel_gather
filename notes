@@ -1,0 +1,24 @@
+exposureIntel
+
+Gather
+
+Part of a larger project, with this section covering the gathering of intel and data exposure information.
+
+The idea is to pull info from multiple sources, here, and insert the results in a database for a 'Process' project.
+
+The results of that 'Process' project will then be displayed in an API and web app, 'Display'.
+
+These 3 projects (Gather, Process, Display) will be combined into one larger project at a later time.
+
+Initial sources for this gathering are:
+
+- California AG page that lists data breaches and has links to the PDF files that are sent to affected users.
+(check other states as well for similar sites - not every site has this type of information)
+
+- Github DMCA page, check for updates and insert this data into a DB.
+
+- Possibly Twitter, following users and/or doing periodic searches.
+
+- Add other sources as they come up.
+
+This data will be placed in MongoDB for later retrieval and processing (by the 'Process' project).
