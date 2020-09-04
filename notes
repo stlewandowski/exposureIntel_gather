@@ -27,3 +27,5 @@ Process part will (possibly) retrieve from Mongo, process, and place in another 
 
 Or the Gather'er could send to some other location/service to process before it gets to Mongo,
 or do something for one part and something else for another.
+
+It will probably be part 'send to process' and part 'send to Mongo'.
