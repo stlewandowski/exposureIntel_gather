@@ -24,3 +24,6 @@ Initial sources for this gathering are:
 This data will be placed in MongoDB for later retrieval and processing (by the 'Process' project).
 
 Process part will (possibly) retrieve from Mongo, process, and place in another directory.
+
+Or the Gather'er could send to some other location/service to process before it gets to Mongo,
+or do something for one part and something else for another.
