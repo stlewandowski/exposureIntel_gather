@@ -22,3 +22,5 @@ Initial sources for this gathering are:
 - Add other sources as they come up.
 
 This data will be placed in MongoDB for later retrieval and processing (by the 'Process' project).
+
+Process part will (possibly) retrieve from Mongo, process, and place in another directory.
