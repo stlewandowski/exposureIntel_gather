@@ -29,6 +29,8 @@ class GithubDMCA:
 
     def gen_commit_log(self):
         """ Generate a Git Commit Log file from the latest commit to the last one checked """
+        # git_history_cmd = "git --no-pager log -p > " + history_filename
+
 
     def search_commit_log(self):
         """ Pull out new files from commit log file
